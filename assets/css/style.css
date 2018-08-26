@@ -4,9 +4,14 @@ font-family: 'Calligraffitti', cursive;
 font-family: 'IM Fell Great Primer', serif;
 font-family: 'Allan', cursive;
 
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Euphoria Script', cursive;
+font-family: 'Kaushan Script', cursive;
+
 Logo Color:  color: #445976;
 */
 @import url('https://fonts.googleapis.com/css?family=Allan|Calligraffitti|IM+Fell+Great+Primer:400i');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Euphoria+Script|Kaushan+Script');
 
 /*Custom classes used for testing purposes*/
 .red-border {
@@ -20,6 +25,24 @@ Logo Color:  color: #445976;
 }
 
 /*css shared across multiple html files, design elements notavailable in bootstrap*/
+
+.typewriter h1 {
+    font-family: 'Kaushan Script', cursive;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: 
+      typing 20s steps(500, end),
+      blinking-cursor .5s step-end infinite;
+  }
+
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
+
 
   .container-top {
     border-bottom: solid;

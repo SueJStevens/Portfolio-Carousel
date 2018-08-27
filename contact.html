@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sue J. Steven - About</title>
+    <title>Sue J. Stevens</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
     <link rel="shortcut icon" href="assets/images/favicon.png" />
@@ -14,64 +14,66 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <!--Custom local stylesheet for common shared elements like header and footer-->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <!--Custom local stylesheet for social icons-->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/social/style_amz.css" />
     <!--Custom local stylesheet for elements unique to this page-->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style_contact.css" />
+
+    <!-- JavaScript
+    ================================================== -->
+    <!-- Placed at the beginning of the document so jquery components work properly -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="assets/javascript/carousel.js" type="text/javascript"></script>
+
 </head>
 <body>
 
-    <!--spans the full width of the viewport-->
-    <div class="container-fluid container-top">
-        <!--spans a fixed width based on media sizes developed by bootstrap-->
-        <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light head mb-0 py-0">
-
-                <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link py-0" href="index.html" id="brand">Sue J. Stevens</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="mx-auto order-0">
-                    <a class="mx-auto" href="index.html">
-                        <img src="assets/brand/color_logo_with_background1_120x120.png" alt="SJS Logo" class="rounded-circle" id="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-
-                <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                    <ul class="navbar-nav ml-auto text-right">
-                        <li class="nav-item">
-                            <a class="nav-link py-0" href="index.html">About <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link py-0" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link py-0" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-            </nav>
-        </div>
-    </div>
-
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light head mb-0 py-0 container-top">
+    
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link py-0" href="index.html" id="brand">Sue J. Stevens, Application Developer</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="mx-auto order-0">
+                <a class="mx-auto" href="index.html">
+                    <img src="assets/brand/color_logo_with_background1_120x120.png" alt="SJS Logo" class="rounded-circle" id="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto text-right">
+                    <li class="nav-item active">
+                        <a class="nav-link py-0" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-0" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-0" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-0" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        
+        </nav>
+    </header>
 
     <!-- Begin page content -->
-    <main class="container-fluid">
-        <div class="row w-100">
-            <div class="col-sm-12 mt-3">
-                <h1 class="text-center">Drop Me A Line!</h1>
-                <hr>        
-            </div>
+    <main role="main">                   
+        <!--Custom class to animate h1 heading throughout the portfolio-->
+        <div class="col-sm-12 mt-3 typewriter">
+            <h1>Drop Me A Line!</h1>
+            <hr>        
         </div>
-
+        
         <div class="row w-100">
           <div class="col-sm-12 postcard">
             <form>
